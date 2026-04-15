@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/splide.min.css">
+</head>
+
+<body>
+    <h1 class="bg-info">Hello</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <section class="splide" aria-label="Splide Basic HTML Example">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">Slide 01</li>
+                            <li class="splide__slide">Slide 02</li>
+                            <li class="splide__slide">Slide 03</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <img src="img/taj-logo.svg" alt="">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/splide.min.js"></script>
+    <script>
+        var splide = new Splide('.splide', {
+            type: 'loop',
+            perPage: 3,
+            perMove: 1,
+        });
+
+        splide.mount();
+    </script>
+</body>
+
+</html>

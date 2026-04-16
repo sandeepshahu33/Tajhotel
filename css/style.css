@@ -639,6 +639,13 @@ input {
     max-width: 95px;   /* 👈 important */
     word-break: break-word;
   }
+  .check-text{
+    margin-top: -40px;
+    padding-top: 0px !important;
+  }
+  .hcl{
+    height: 70px;
+  }
   
 }
 

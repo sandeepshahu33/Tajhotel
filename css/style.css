@@ -628,6 +628,17 @@ input {
   .sm-desc{
     font-size: 14px;
   }
+  .mod-text{
+    font-size: 13px;
+  }
+ .mod-text {
+    white-space: normal !important;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.2;
+    max-width: 95px;   /* 👈 important */
+    word-break: break-word;
+  }
   
 }
 

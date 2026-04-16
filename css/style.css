@@ -146,6 +146,7 @@
 .card-box {
   position: relative;
   visibility: visible;
+  background-color: red;
 }
 
 .offer-div {
@@ -440,9 +441,14 @@ input {
   filter: invert(1);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 576px) {
   .search {
     visibility: hidden;
+  }
+
+  .nav-logo {
+    padding-left: 0px !important;
+    height: 50px;
   }
 
   .navbar-collapse {
@@ -466,7 +472,7 @@ input {
   }
 
   .navbar-nav .nav-item .nav-link {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 400;
     color: #ad8b3a !important;
   }
@@ -476,8 +482,8 @@ input {
   }
 
   .m-login {
-    font-size: 25px;
-    margin-left: 100px;
+    font-size: 16px;
+    margin-left: 50px;
   }
 
   .nav-link {
@@ -486,31 +492,36 @@ input {
   }
 
   .heading {
-    font-size: 35px;
+    font-size: 27px;
+  }
+
+  .b-line {
+    padding: 0 10px;
   }
 
   .b-line::before {
-    left: 40px;
+    left: 0px;
   }
 
   .b-line::after {
-    right: 40px;
+    right: 0px;
   }
 
   .b-line::before,
   .b-line::after {
-    width: 40px;
+    width: 25px;
     /* line length control */
     height: 1px;
     background: #3a3a3a;
   }
 
   .desc {
-    padding-left: 50px !important;
-    padding-right: 50px !important;
+    font-size: 15px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
   }
 
-  .m-padding{
+  .m-padding {
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -520,25 +531,33 @@ input {
   }
 
   .left-line::before {
-    width: 40px;
-    left: 70px;
-    top: 20px;
+    width: 25px;
+    left: 35px;
+    top: 13px;
   }
 
   .offer-div {
-    height: 110px;
-    width: 350px;
+    bottom: -20%;
+    height: 40%;
+    width: 90%;
+    box-shadow: 0px 0px 10px rgb(179, 176, 176);
   }
-
   .wleft-line::before {
     height: 1px;
-    width: 40px;
-    left: 80px;
-    top: 20px;
+    width: 25px;
+    left: 40px;
+    top: 15px;
   }
-
+ .big-desc{
+  font-size: 20px;
+ }
+ .dm-text{
+  font-size: 12px;
+ }
   .d-s {
+    height: 410px;
     background-image: none !important;
+    /* background-color: red; */
   }
 
   .left-b,
@@ -547,59 +566,72 @@ input {
   }
 
   .b-img {
-    height: 280px;
+    background-color: #f6f5f5;
+    height: 50%;
+    width: 100%;
+    margin-bottom: 0px !important;
   }
 
   .sl2-img {
-    height: 250px;
+    height: 200px;
   }
 
   .mrp {
     margin-left: 40px;
   }
 
-  /* .big-offer {
-    height: 230px;
-    width: 400px;
-    bottom: -200px;
-  } */
 
- .big-offer {
-    height: 65%;
-    width: 90%;
-    bottom: -55%;
+  .big-offer {
+    height: 90%;
+    width: 95%;
+    bottom: -85%;
   }
 
   #slider5 .splide__slide {
     padding-bottom: 250px;
   }
-  .three-col{
-    width: 400px;
-    margin-right: 26px;
+
+  .three-col {
+    height: 70px;
+    width: 75%;
+    margin-right: 1%;
   }
-.three-p {
-    padding-left: 50px;
-    padding-right: 50px;
+
+  .three-p {
+    padding-left: 30px;
+    padding-right: 30px;
     margin-bottom: 40px;
   }
-   .girl {
+
+  .girl {
     content: url("../img/girl1.avif");
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
-   .f-icon a {
-    width: 30%;      /* 👈 3 icons per row */
+
+  .f-icon a {
+    width: 30%;
+    /* 👈 3 icons per row */
     text-align: center;
   }
-  .abs-btn{
+
+  .abs-btn {
     visibility: hidden;
   }
-  .sl-text{
-    padding: 20px 15px !important;
+
+  .sl-text {
+    padding: 10px 15px !important;
+  }
+  .o-m{
+    font-size: 14px;
+  }
+  .sm-desc{
+    font-size: 14px;
   }
   
 }
-html, body {
+
+html,
+body {
   overflow-x: hidden;
 }
-

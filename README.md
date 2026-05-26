@@ -31,7 +31,7 @@ A responsive frontend UI project inspired by the Taj Hotel website. This project
 
 ## GitHub Repository
 
-🔗 Repository Link: [[https://github.com/sandeepshahu33/Tajhotel/settings/pages](https://github.com/sandeepshahu33/Tajhotel/settings/pages)]
+🔗 Repository Link: [https://github.com/sandeepshahu33/Tajhotel]
 
 ## Project Overview
 

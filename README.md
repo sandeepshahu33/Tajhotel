@@ -15,6 +15,7 @@ A responsive frontend UI project inspired by the Taj Hotel website. This project
 * HTML5
 * CSS3
 * JavaScript
+* BootStrap
 
 ## Sections Included
 
